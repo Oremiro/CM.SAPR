@@ -9,7 +9,16 @@
     <ItemGroup>
       <Folder Include="PostProcessor" />
       <Folder Include="PreProcessor" />
-      <Folder Include="Processor" />
+      <Folder Include="Processor\StressedComponentCalculator\Command" />
+      <Folder Include="Processor\StressedComponentCalculator\Dto" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="11.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SAPR.Model\SAPR.Model.csproj" />
     </ItemGroup>
 
 </Project>
